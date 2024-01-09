@@ -1,0 +1,271 @@
+-pages
+ +features
+  *details
+  
+-home
+  *most clicked items
+  *sales comparison
+  *most sold items
+  *payouts
+  *gross sales
+
+-order
+  +multiview
+    *list
+    *tables
+    *kanban
+  +card
+    +actions
+      *refund
+      +changes
+        *mark as finished
+  
+     *settle
+     *accept
+     *rejected
+  
+    +multiview
+      *settle
+      *recap
+      *view
+      *changes
+      *refund
+  
+    *status
+    *order number
+    *date
+    *order type
+    *channel
+    *amount
+    *items count
+    +order specific info
+      *table number
+      *scheduled date
+  
+-history
+  +detail
+ 
+-menu
+  +actions
+    *toggle multi expand
+    *import
+    *export
+    *change language
+    *add language
+    *save
+    *delete
+    *duplicate
+    *add category
+    *add attribute group
+
+  *visibility schedule
+  *suggested items
+  *visibility
+  *name
+  *description
+
+  +categories
+   +actions
+    *clone
+    *delete
+    *add item
+    *make bundle
+  
+   *image
+   +bundle settings
+     *price
+     +bundle categories
+       *max items
+  
+    *name
+    *visibility schedule
+    *visibile
+    +item
+      *extra price
+  
+   *order
+   *name
+   *description
+   *attribute groups selection
+  
+  +menu items
+    *images
+    *recommended items
+    *price
+    *name
+    *description
+    *attribute groups
+    *labels
+    *SKU
+    *preparation time
+    +inventory product
+      *quantity
+      *error range
+
+    *visibility schedule
+    *visibile
+    *recommended items
+  
+  +attribute groups
+    -actions
+      *add item
+      *delete
+      *clone
+      *expand/collapse
+    *name
+    *description
+    *min selection
+    *max selection
+    +attribute items
+      +actions
+        *delete
+      *name
+      *price
+      *max selections
+      *labels
+      *visibile
+      *SKU
+      +inventory product
+        *quantity
+        *error range
+
+-vouchers
+  *code
+  *name
+  *description
+  *discount percentage
+  *expiry date
+  *apply automatically
+  *usage type
+  *min order amount
+  *valid for order type
+
+-tables
+  +actions
+    *add group
+    *change view
+
+  +multiview
+   *list
+   +layout
+     +table
+       *height
+   *width
+   *position
+   *color
+
+  +groups
+    +actions
+     *save
+     *delete
+     *download all
+  
+    *name
+    *layout
+    *extra charge
+    +table
+      +actions
+        *show qr
+        *print
+  
+      *number
+      *seats
+      *visible
+
+-campaigns
+  +actions
+    *create
+    *toggle active
+    *delete
+
+  *active
+  *send discount after
+  *amount
+  *valid for days
+  *cover features
+  *apply automatically
+
+
+-inventory
+  -stock
+    +actions
+      *add category
+      *add supplier
+    
+    +categories
+
+      +actions
+        *add category
+
+      +products
+        +actions
+          *remove product
+          *save
+          *add stock
+
+        *measure unit
+        *stock
+        *suppliers
+        *min order
+        *SKU
+
+
+  -suppliers
+    +actions
+      *add
+      *remove
+      *add from list (public)
+      *search product (public)
+    
+    +products
+      *name
+      *price
+      *SKU
+
+  -orders
+    +actions
+      *search
+
+    +item
+      *open detail
+
+-reports
+
+-users
+  -management
+    +actions
+      *create
+      *delete
+      *update
+  
+  -shifts
+    +actions
+      *create
+      *delete
+      *start
+      *end
+
+-transactions
+  +actions
+
+-devices
+  +actions
+    *create
+    *delete
+    *update
+
+-payouts
+
+-channels
+
+-invoices
+  +actions
+    *search
+
+  +item
+    +actions
+      *download
+
+    *amount
+    *date
+    *emitter/supplier
